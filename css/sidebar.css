@@ -1,9 +1,10 @@
 .sidebar {
 	z-index: 1;
 	position: fixed;
-	background: gray;
-	width: 300px;
-	margin-right: -300px;
+	background: #aaaaaa;
+	border-right: 5px solid #999999;
+	width: 200px;
+	margin-right: -200px;
 	top: 200px;
 	left: 0px;
 	padding: 0px;
