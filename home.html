@@ -35,7 +35,7 @@
 	<!--CONTENT-->
 	<div id="Content" class="content">
 		<div id="Item1" class="item">
-			<p><itemTitle>hi1</itemTitle></p>
+			<p><itemTitle>hi</itemTitle></p>
 			<p><img src="./images/icon.png"></p>
 			<p><price>1$</price></p>
 		</div>
@@ -54,12 +54,12 @@
 
 <script>
 let car;
-fetch("https://1198159.github.io/RCS/items.json")
-    .then(response => {
+fetch("https://1198159.github.io/RCS/json/items.json")
+   .then(response => {
       return response.json();
     })
     .then(data => {
-      car = data.make;
+      car = data.blogs;
     })
 document.getElementById("demo").innerHTML = car;
 /*
