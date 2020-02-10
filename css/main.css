@@ -12,3 +12,16 @@ body {
     font-family: arial;
     font-size: 1.3em;
 }
+
+/*fonts*/
+
+/*GAVIN*/
+@font-face {
+  font-family: main;
+  src: url(font.otf);
+}
+/*BANK GOTHIC*/
+@font-face {
+  font-family: bgb;
+  src: url(bgb.ttf);
+}

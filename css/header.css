@@ -1,9 +1,31 @@
 .header {
-	background: black;
+	background: #aaaaaa;
+	border-bottom: 5px solid #999999;
 	position: fixed;
 	attachment: fixed;
 	width: 100%;
 	padding: 0px;
 	padding-bottom: 0px;
-	height: 200px;
+	height: 100px;
+}
+
+.header itemCount{
+	float: right;
+	margin: 50px;
+	font-size: 2em;
+}
+
+.header img{
+	float: right;
+	height:75px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.header p{
+	margin-top: 25	px;
+	font-family: bgb;
+	float: right;
+	margin-right: 20px;
+	font-size: 2em;
 }
