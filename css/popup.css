@@ -1,0 +1,108 @@
+.popup {
+	
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+  	z-index: 1; /* Sit on top */
+  	left: 25%;
+  	top: 15%;
+  	width: 50%; /* Full width */
+  	height: 70%; /* Full height */
+  	overflow: hidden; /* Enable scroll if needed */
+	background-color: #bbbbbb;
+  	filter: opacity(0.95); /*OPACITY*/
+}
+
+/* Modal Content/Box */
+
+
+/* The Close Button */
+.close {
+	z-index: 3;
+	margin: 8px;
+  	color: #333333;
+  	float: right;
+  	font-size: 28px;
+  	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  	color: #aaaaaa;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+.popup-header {
+  	padding: 2px 16px;
+	height: 50px;
+  	background-color: #777777;
+  	color: white;
+}
+.popup-content {
+	z-index: -5;
+	padding-top: 50px;
+  	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #bbbbbb; /* Could be more or less, depending on screen size */
+}
+
+
+.popup-content img{
+	display: inline-block;
+	margin-left: -10%;
+	position: absolute;
+	float: left;
+	height: 100%;
+	width: 60%;
+	object-fit: cover;
+	border-right: 5px solid #999999;
+}
+
+
+
+.popup-subcontent{
+	margin-top: 10px;
+	left: 15px;
+	position: relative;
+	float: right;
+	width: 50%;
+	padding: 0px;
+	
+	background-color: #bbbbbb;	
+}
+
+.popup-subcontent name{
+	font-family: main;
+	font-size: 3em;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	
+}
+
+.popup-subcontent price{
+	font-family: bgb;
+	margin-top: 50px;
+	position: absolute;
+	font-size: 1.5em;
+	border-bottom: 2px solid #888888;
+	padding-bottom: 10px;
+}
+
+.popup-subcontent description{
+	font-family: bgb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	margin-top: 90px;
+	width: 90%;
+	border-top: 2px solid #888888;
+	border-bottom: 2px solid #888888;
+}
+
+.popup-subcontent button{
+	position: absolute;
+	margin-top: 80px;
+	width: 50%;
+}

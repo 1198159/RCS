@@ -1,38 +1,28 @@
+
 {
- 	"items": [{
-  		"name": "Item1",
-  		"image": "./images/icon.png",
- 		"price": "2$",
-		"link": ""
+ 	"items": [{		
+		"id": "0",
+  		"name": "Item0",
+  		"image": "./images/image1.png",
+ 		"price": "Price",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet tincidunt ligula quis porta."
 	},{
+		"id": "1",
+  		"name": "Item1",
+  		"image": "./images/image2.png",
+ 		"price": "Price",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet tincidunt ligula quis porta."
+	},{		
+		"id": "2",
   		"name": "Item2",
   		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""	
-	},{
+ 		"price": "Price",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet tincidunt ligula quis porta."
+	},{				
+		"id": "3",
   		"name": "Item3",
-  		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""
-	},{
-  		"name": "Item4",
-  		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""
-	},{
-  		"name": "Item5",
-  		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""
-	},{
-  		"name": "Item6",
-  		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""
-	},{
-  		"name": "Item7",
-  		"image": "./images/icon.png",
- 		"price": "5$",
-		"link": ""
+  		"image": "./images/image4.png",
+ 		"price": "Price",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet tincidunt ligula quis porta."
 	}]
-}	
+}
